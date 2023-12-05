@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    images: {
+        domains: ['fakestoreapi.com', 'img.freepik.com']
+    }
+}
 
 module.exports = nextConfig
